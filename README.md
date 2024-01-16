@@ -59,3 +59,6 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
 * в основном решает проблемы связанные с bashrc
 * не забыть добавить в .inputrc возможность ctrl+backspace
 `echo -e \"\\C-H\":\"\\C-W\" > ~/.inputrc` 
+
+## json minifying
+* `cat input.json | jq -c > output.json`
