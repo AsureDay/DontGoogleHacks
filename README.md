@@ -3,7 +3,7 @@ Some hacks for fast develop
 
 # Python CPP debugger 
 * `launch.json`
-````json
+```json
     {
       "name": "Python: Current File",
       "type": "python",
