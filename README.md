@@ -45,8 +45,8 @@ Some hacks for fast develop
 * `pip install virtualenv && virtualenv venv --python=python3.8`
 
 ## CUDA 
-* тут пока не будет подробной инструкции, но важно не забывать добавлять в bashrc 
-
+* тут пока не будет подробной инструкции, но важно не забывать добавлять в `bashrc` 
+* `code ~/.bashrc`
 ```bash
 export MYPYTHONPATH="" # вставить python
 export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
