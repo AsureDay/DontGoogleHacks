@@ -54,3 +54,8 @@ export PATH=/usr/local/cuda-11.8/bin${PATH:+:${PATH}}
 CUDNN_PATH=${MYPYTHONPATH}/python3.8/site-packages/nvidia/cudnn
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
 ``` 
+
+## zsh вместо bashrc 
+* в основном решает проблемы связанные с bashrc
+* не забыть добавить в .inputrc возможность ctrl+backspace
+`echo -e \"\\C-H\":\"\\C-W\" > ~/.inputrc` 
