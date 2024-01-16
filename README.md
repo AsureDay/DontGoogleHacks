@@ -1,7 +1,7 @@
 # DontGoogleHacks
 Some hacks for fast develop
 
-# Python CPP debugger 
+## Python CPP debugger 
 * `launch.json`
 ```json
     {
@@ -42,5 +42,15 @@ Some hacks for fast develop
 * не забыть компилировать файл в режиме Debug
 
 ## быстрое создание python venv 
-`pip install virtualenv && virtualenv venv --python=python3.8`
+* `pip install virtualenv && virtualenv venv --python=python3.8`
 
+## CUDA 
+* тут пока не будет подробной инструкции, но важно не забывать добавлять в bashrc 
+
+```bash
+export MYPYTHONPATH="" # вставить python
+export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export PATH=/usr/local/cuda-11.8/bin${PATH:+:${PATH}}
+CUDNN_PATH=${MYPYTHONPATH}/python3.8/site-packages/nvidia/cudnn
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
+``` 
