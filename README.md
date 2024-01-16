@@ -23,7 +23,7 @@ Some hacks for fast develop
       "name": "(gdb) Attach",
       "type": "cppdbg",
       "request": "attach",
-      "program": "/home/anesin/INDUS_SATELITES/venv/bin/python",
+      "program": "PATH TO PYTHON",
       "processId": "",
       "MIMode": "gdb",
       "setupCommands": [
