@@ -38,5 +38,6 @@ Some hacks for fast develop
     },
 
 ```
+* `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope` чтобы не было постояного запроса прав суперюзера
 * не забыть компилировать файл в режиме Debug
 
