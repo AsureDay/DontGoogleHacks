@@ -62,3 +62,6 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
 
 ## json minifying
 * `cat input.json | jq -c > output.json`
+
+## pre commit 
+* `pre-commit run --all-files`
